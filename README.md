@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# VS Code Themed Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A developer portfolio template inspired by Visual Studio Code, built with React. Showcase your projects, skills, and contact information in a modern, VS Code-like interface.
 
-## Available Scripts
+## ✨ Features
 
-In the project directory, you can run:
+- **VS Code Inspired UI:** Familiar look and feel for developers.
+- **Responsive Design:** Works on all devices.
+- **Animated Tech Stack:** Show off your skills with animated icons.
+- **Project Showcase:** Highlight your best work with images, tags, and links.
+- **Contact Form:** Let visitors reach out directly.
+- **Social Links:** Easy access to your profiles.
+- **Downloadable Resume:** One-click resume download.
 
-### `npm start`
+## 🚀 Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[Live Demo]([https://your-demo-link.com](https://portfolio-saniya-five.vercel.app/))  
+*(Replace with your deployed link)*
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+- React
+- React Router
+- Framer Motion (animations)
+- React Icons
+- CSS Modules / Tailwind CSS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📦 Installation
 
-### `npm run build`
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/vscode-portfolio.git
+   cd vscode-portfolio
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Start the development server:**
+   ```bash
+   npm start
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. **Open in browser:**  
+   Visit [http://localhost:3000](http://localhost:3000)
 
-### `npm run eject`
+## 🖼️ Customization
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Update your details:**  
+  Edit your name, bio, resume link, and social links in `src/pages/home/Home.js`.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Add/Update Projects:**  
+  Edit `src/pages/projects/Projects.js` and add your projects to the `projectsData` array.  
+  Place project images in `src/assets/project-images/`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Tech Stack:**  
+  Edit `src/pages/home/Technologies.js` to update your skills and icons.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Contact Form:**  
+  The contact form can be connected to services like [EmailJS](https://www.emailjs.com/) or your backend.
 
-## Learn More
+- **Theme Colors:**  
+  Adjust CSS variables in `src/index.css` or your CSS modules.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📄 Deployment
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+You can deploy this portfolio on platforms like **Vercel**, **Netlify**.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Inspired by [VS Code](https://code.visualstudio.com/).**  
+Made with ❤️ by Saniya([https://your-website.com](https://portfolio-saniya-five.vercel.app/))

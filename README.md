@@ -14,8 +14,8 @@ A developer portfolio template inspired by Visual Studio Code, built with React.
 
 ## 🚀 Demo
 
-[Live Demo]([https://your-demo-link.com](https://portfolio-saniya-five.vercel.app/))  
-*(Replace with your deployed link)*
+🌐 [Live Demo](https://portfolio-saniya-five.vercel.app/)
+
 
 ## 🛠️ Tech Stack
 

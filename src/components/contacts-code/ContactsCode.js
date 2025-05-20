@@ -5,7 +5,7 @@ const socialsData = [
   {
     social: "website",
     link: "saniyabagwan.me",
-    href: "https://saniyabagwan.me",
+    href: "https://portfolio-saniya-five.vercel.app/",
   },
   {
     social: "email",
